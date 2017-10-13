@@ -8,3 +8,5 @@ logistic regression formulation is to obtain the mathematic formulation about pr
 predictionnew divides the customer into two groups based on their active session and obtains formulations seperately. formulation is to obtain coefficients from training set.
 
 optimization is to maximize probability obtaines from logistic regression formulation and get solution.
+
+The first three codes are programmed in Python and last one is programmed in visual studio with CPLEX Optimization.
