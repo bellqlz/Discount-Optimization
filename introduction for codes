@@ -1,4 +1,4 @@
-Codes are all in brach: reactivation predict
+Codes are all in brach: predict_reactivation
 
 The main 4 codes are: prediction, logistic regression formualtion (which inclued predictionnew and formulation ) and optimization.
 
