@@ -1,3 +1,5 @@
+Codes are all in brach: reactivation predict
+
 The main 4 codes are: prediction, logistic regression formualtion (which inclued predictionnew and formulation ) and optimization.
 
 prediction is to fill the predict.csv in ['used?','repurchase_15','repurchase_30','repurchase_60','repurchase_90'].
