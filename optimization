@@ -9,8 +9,8 @@ void define_data(IloEnv env) {
         nbtw = 1000000;//number of 20 voucher
         nbth = 1000000;//number of 30 voucher
         nbf = 3000000;//number of 50 voucher
-        H = 48733;//number of customer in group A
-        L = 42262;//number of customer in group B
+        H = 43239;//number of customer in group A
+        L = 35664;//number of customer in group B
         theta1 = -0.15;//voucher coefficients of group A
         theta2 = -0.23;//voucher coefficients of group B
         a = 2;//weight of voucher 30
@@ -41,8 +41,8 @@ main(int, char**)
                 // Objective Function: Minimize negative probability
                 model.add(IloMinimize(env, Prob));
                  //constraints
-                model.add(x + y + z==42262);//number of people in group A
-                model.add(m + n + l == 48733);//..B
+                model.add(x + y + z==H);//number of people in group A
+                model.add(m + n + l == L);//..B
                 model.add(x + m <= nbtw);//number of voucher 20
                 model.add(y + n <= nbth);//..30
                 model.add(z + l <= nbf);//..50
