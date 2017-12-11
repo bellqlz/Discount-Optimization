@@ -1,6 +1,0 @@
-In this case, I divided customers into two groups based on theie behavior before voucher is received.
-Group A: low active
-Group B: High active
-Voucher has 3 types discount :20 with capacity of 1000000, 30 with capacity of 100000, 50 with capacity of 3000000.
-
-From the result of optimization.code, all groups receive 50 discount voucher due to its enough capacity.
