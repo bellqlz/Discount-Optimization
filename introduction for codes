@@ -1,11 +1,11 @@
-Codes are all in brach: predict_reactivation
+Data File are all in brach: predict_reactivation
 
-The main 4 codes are: prediction, logistic regression formualtion (which inclued predictionnew and formulation ) and optimization.
+The main 4 codes are: prediction, logistic regression formualtion (which inclued predictionnew and LR for prediction ) and optimization.
 
 prediction is to fill the predict.csv in ['used?','repurchase_15','repurchase_30','repurchase_60','repurchase_90'].
 
 logistic regression formulation is to obtain the mathematic formulation about probability of reactivation, which is used sklearn package about logistic regression.
-predictionnew divides the customer into two groups based on their active session and obtains formulations seperately. formulation is to obtain coefficients from training set.
+predictionnew divides the customer into two groups based on their active session and obtains formulations seperately. LR for prediction is to obtain coefficients from training set.
 
 optimization is to maximize probability obtaines from logistic regression formulation and get solution.
 
